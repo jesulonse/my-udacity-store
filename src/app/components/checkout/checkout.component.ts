@@ -1,5 +1,5 @@
 import { Component, OnInit, EventEmitter, Input, Output } from '@angular/core';
-import { FormBuilder, Validators } from '@angular/forms';
+import { UntypedFormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class CheckoutComponent implements OnInit {
 
-  constructor(private route: Router, private fb: FormBuilder) { }
+  constructor(private route: Router, private fb: UntypedFormBuilder) { }
   ngOnInit(): void {
   }
 

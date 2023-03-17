@@ -102,5 +102,7 @@
       }
     }
   },
-  "defaultProject": "my-udacity-store"
+  "cli": {
+    "analytics": "6091f6fb-7ed2-49b8-a624-20b9c9585c89"
+  }
 }
